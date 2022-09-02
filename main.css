@@ -3,6 +3,7 @@
   --secondary-color: #a66bbe;
   --light-color: #f3f3f3;
   --off-white-color: #ffddd2;
+  --white-color: white;
   --font-color: #e29578;
 }
 
@@ -77,7 +78,6 @@ body {
 /* nav bar */
 #main-nav {
   height: 5rem;
-
   background: var(--light-color);
   position: sticky;
   top: 0;
@@ -118,7 +118,7 @@ ul a:hover {
 
 /* showcase section */
 #showcase {
-  background: var(--off-white-color);
+  background: var(--white-color);
 }
 
 #showcase .container {
@@ -141,7 +141,7 @@ ul a:hover {
 
 /* about me section */
 #about {
-  background: var(--light-color);
+  background: var(--off-white-color);
 }
 
 #about .container {
@@ -164,6 +164,7 @@ ul a:hover {
 
 /* work section */
 #work {
+  display: none;
   margin-top: 8rem;
   text-align: center;
 }
@@ -183,7 +184,7 @@ ul a:hover {
 
 /* gallary section */
 #gallary {
-  background: var(--off-white-color);
+  background: var(--white-color);
   margin-top: 8rem;
   padding-top: 3rem;
   text-align: center;
@@ -232,6 +233,10 @@ ul a:hover {
     height: 80px;
     /* display: 100vh; */
     margin-left: -3rem;
+  }
+
+  svg {
+    font-size: 2.5rem;
   }
 
   .xxl {
@@ -321,7 +326,7 @@ ul a:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     font-size: 1rem;
-    grid-gap: 2rem;
+    grid-gap: 1.5rem;
     padding-bottom: 2rem;
   }
 
