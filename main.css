@@ -195,6 +195,7 @@ ul a:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: -1rem;
   margin-left: -7rem;
+  padding-bottom: 2rem;
 }
 
 /* contact section  */
@@ -206,6 +207,7 @@ ul a:hover {
 #contact .contact-info {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
 }
 
 /* footer section */
@@ -214,4 +216,112 @@ ul a:hover {
   height: 5rem;
   text-align: center;
   padding-top: 2rem;
+}
+
+/* phone responsive */
+
+@media (max-width: 500px) {
+  .logo {
+    width: 80px;
+    height: 80px;
+    /* display: 100vh; */
+    margin-left: -3rem;
+  }
+
+  .xxl {
+    font-size: 2rem;
+  }
+  .xl {
+    font-size: 2rem;
+  }
+  .bold {
+    font-weight: normal;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.8rem 1rem;
+  }
+
+  .aboutme-btn {
+    display: none;
+  }
+
+  #main-nav ul {
+    margin-top: -1.5rem;
+    justify-self: end;
+    display: flex;
+    font-size: 1rem;
+  }
+
+  #main-nav ul li a {
+    padding: 0.5rem;
+    font-weight: bold;
+  }
+
+  #showcase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .showcase-text {
+    width: 20rem;
+    font-size: 1rem;
+    position: relative;
+    top: 22rem;
+  }
+
+  .showcase-img img {
+    background: url(../img/img1.jpg) no-repeat center center/cover;
+    margin-top: 10rem;
+    width: 15rem;
+    height: 18rem;
+    position: relative;
+    top: -25rem;
+  }
+
+  .about-img {
+    display: none;
+  }
+
+  .about-text {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .cards {
+    margin: auto;
+    display: grid;
+    font-size: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    width: 20rem;
+  }
+
+  .gallary-cards {
+    display: grid;
+    font-size: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: -1rem;
+    margin-left: -5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  #contact .contact-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1rem;
+    grid-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #main-footer {
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
 }
