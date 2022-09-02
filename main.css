@@ -2,8 +2,8 @@
   --primary-color: #009cff;
   --secondary-color: #a66bbe;
   --light-color: #f3f3f3;
-  --off-white-color: #bbd0ff;
-  --dark-color: #333333;
+  --off-white-color: #ffddd2;
+  --font-color: #e29578;
 }
 
 * {
@@ -21,7 +21,11 @@ svg:hover {
   transition: all ease-in-out 0.5s;
 }
 a {
-  color: var(--dark-color);
+  color: #222;
+  text-decoration: none;
+}
+ul li a {
+  color: var(--font-color);
   text-decoration: none;
 }
 
@@ -51,20 +55,22 @@ body {
 
 .xl {
   font-size: 2.5rem;
+  color: var(--font-color);
 }
 
 .xxl {
   font-size: 3.5rem;
+  color: var(--font-color);
 }
 
 .btn {
-  background: linear-gradient(to right, #c38fd8, #55b7f4);
+  background: linear-gradient(to right, #bb7b64, #faae94);
   color: var(--light-color);
   padding: 1rem 1.5rem;
 }
 
 .btn:hover {
-  box-shadow: 3px 3px 20px 3px #55b7f4;
+  box-shadow: 3px 3px 20px 3px #7f574a;
   transition: all ease-in-out 0.5s;
 }
 
@@ -106,7 +112,7 @@ body {
 }
 
 ul a:hover {
-  color: var(--primary-color);
+  color: var(--off-white-color);
   transition: all ease-in-out 0.5s;
 }
 
