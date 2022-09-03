@@ -203,7 +203,7 @@ ul a:hover {
 /* gallary section */
 #gallary {
   background: var(--white-color);
-  margin-top: 8rem;
+  margin-top: 1rem;
   padding-bottom: 3rem;
   padding-top: 3rem;
   text-align: center;
@@ -274,7 +274,7 @@ ul a:hover {
   }
 
   .xxl {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .xl {
     font-size: 2rem;
