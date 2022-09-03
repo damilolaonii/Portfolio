@@ -75,6 +75,7 @@ body {
   background: linear-gradient(to right, #bb7b64, #faae94);
   color: var(--light-color);
   padding: 1rem 1.5rem;
+  border-radius: 3px;
 }
 
 .btn:hover {
@@ -142,9 +143,10 @@ ul a:hover {
 .showcase-img img {
   background: url(../img/img1.jpg) no-repeat center center/cover;
   margin-top: 10rem;
+  margin-bottom: 2rem;
   width: 440px;
   border-radius: 8px;
-  box-shadow: 3px 3px 20px 3px #a4857a;
+  box-shadow: 3px 3px 20px 3px #a39089;
   /* height: 40rem; */
 }
 
@@ -167,10 +169,15 @@ ul a:hover {
 .about-img img {
   background: url(../img/img2.jpg) no-repeat center center/cover;
   margin-top: 10rem;
+  margin-bottom: 3rem;
   width: 450px;
   border-radius: 8px;
-  box-shadow: 3px 3px 20px 3px #a4857a;
+  box-shadow: 3px 3px 20px 3px #a39089;
   /* height: 35rem; */
+}
+
+.aboutimg-2 {
+  display: none;
 }
 
 /* work section */
@@ -282,7 +289,8 @@ ul a:hover {
   }
 
   .aboutme-btn {
-    display: none;
+    display: inline-block;
+    margin-bottom: 2rem;
   }
 
   #main-nav ul {
@@ -315,10 +323,19 @@ ul a:hover {
   .showcase-img img {
     background: url(../img/img1.jpg) no-repeat center center/cover;
     margin-top: 10rem;
-    width: 15rem;
-    height: 18rem;
+    width: 300px;
+    /* height: 18rem; */
     position: relative;
-    top: -25rem;
+    top: -20rem;
+  }
+
+  .aboutimg-2 {
+    margin-top: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    box-shadow: 3px 3px 20px 3px #6d605b;
   }
 
   .about-img {
@@ -326,9 +343,15 @@ ul a:hover {
   }
 
   .about-text {
-    margin-top: 2rem;
     text-align: center;
+    margin-top: 2rem;
+    width: 350px;
     font-size: 1rem;
+  }
+
+  #about .container {
+    display: flex;
+    flex-direction: column;
   }
 
   .cards {
