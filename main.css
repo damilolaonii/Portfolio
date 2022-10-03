@@ -137,14 +137,12 @@ ul a:hover {
   width: 40rem;
 }
 
-.showcase-img img {
-  background: url(../img/img1.jpg) no-repeat center center/cover;
+.about-img img {
   margin-top: 10rem;
   margin-bottom: 2rem;
-  width: 440px;
-  border-radius: 8px;
+  width: 350px;
+  border-radius: 50%;
   box-shadow: 3px 3px 20px 3px #a39089;
-  /* height: 40rem; */
 }
 
 #about .container {
@@ -158,10 +156,6 @@ ul a:hover {
   width: 40rem;
 }
 
-.about-img img {
-  width: 200px;
-  border-radius: 50%;
-}
 
 /* work section */
 #work {
