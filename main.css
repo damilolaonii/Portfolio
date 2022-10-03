@@ -109,6 +109,8 @@ body {
   margin-top: -1.5rem;
   justify-self: end;
   display: flex;
+  position:fixed;
+  
 }
 
 #main-nav ul li a {
@@ -130,7 +132,6 @@ ul a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
 
 .showcase-text {
