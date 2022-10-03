@@ -87,6 +87,7 @@ body {
   background: var(--light-color);
   top: 0;
   z-index: 2;
+  position: fixed;
   /* box-shadow: ; */
 }
 
@@ -108,9 +109,7 @@ body {
 #main-nav ul {
   margin-top: -1.5rem;
   justify-self: end;
-  display: flex;
-  position:fixed;
-  
+  display: flex;  
 }
 
 #main-nav ul li a {
