@@ -242,16 +242,19 @@ ul a:hover {
   justify-content: center;
   position: static;
   align-items: center;
-  padding-bottom: 2rem;
   flex: 0 0 auto;
   -webkit-box-align: center;
+  -webkit-box-flex: 0;
 }
 
 /* footer section */
 #main-footer {
-  height: 5rem;
+
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 /* phone responsive */
