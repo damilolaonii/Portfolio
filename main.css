@@ -239,8 +239,13 @@ ul a:hover {
 
 #contact .contact-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  position: static;
+  align-items: center;
   padding-bottom: 2rem;
+  flex: 0 0 auto;
+  -webkit-box-align: center;
+  -webkit-box-flex: 0;
 }
 
 /* footer section */
