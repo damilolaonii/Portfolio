@@ -84,7 +84,7 @@ body {
 /* nav bar */
 #main-nav {
   height: 5rem;
-  background: var(--light-color);
+  background: inherit;
   top: 0;
   z-index: 2;
   position: fixed;
@@ -293,6 +293,7 @@ ul a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 144px;
     }
 
   .showcase-text {
