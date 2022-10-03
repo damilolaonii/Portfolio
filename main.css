@@ -159,17 +159,8 @@ ul a:hover {
 }
 
 .about-img img {
-  background: url(../img/img2.jpg) no-repeat center center/cover;
-  margin-top: 10rem;
-  margin-bottom: 3rem;
-  width: 450px;
-  border-radius: 8px;
-  box-shadow: 3px 3px 20px 3px #a39089;
-  /* height: 35rem; */
-}
-
-.aboutimg-2 {
-  display: none;
+  width: 200px;
+  border-radius: 50%;
 }
 
 /* work section */
