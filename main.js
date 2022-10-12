@@ -9,7 +9,7 @@ $("#main-nav a, .btn").on("click", function (event) {
         {
           scrollTop: $(hash).offset().top - 100,
         },
-        600
+        800
       );
     }
   });
