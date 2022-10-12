@@ -301,7 +301,7 @@ ul a:hover {
   .showcase-text {
     width: 20rem;
     font-size: 1rem;
-    position: relative;
+    position: absolute;
     top: 22rem;
   }
 
@@ -312,10 +312,6 @@ ul a:hover {
     width: 180px;
     height: 180px;
     box-shadow: 3px 3px 20px 3px #6d605b;
-  }
-
-  .about-img {
-    display: none;
   }
 
   .about-text {
