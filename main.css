@@ -143,8 +143,8 @@ ul a:hover {
   margin-top: 10rem;
   margin-bottom: 2rem;
   width: 350px;
+  height:350px;
   border-radius: 50%;
-  box-shadow: 3px 3px 20px 3px #a39089;
 }
 
 #about .container {
