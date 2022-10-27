@@ -200,11 +200,18 @@ ul a:hover {
   border-radius: 4px;
 }
 
+/*.g-card{
+  width:1200px;
+  overflow-x: scroll;
+
+}*/
+
 .g-card-one {
-  width: 1100px;
+  width:1200px;
 }
 .g-card-two {
-  width: 800px;
+  width: 600px;
+  
 }
 .g-card-three {
   width: 800px;
@@ -310,6 +317,12 @@ ul a:hover {
     font-size: 1rem;
     position: relative;
     top: 8rem;
+  }
+  .show-text{
+    width:20rem;
+    font-size: 1rem;
+    position: relative;
+    padding-top: 4px;    
   }
 
   .aboutimg-2 {
