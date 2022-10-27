@@ -313,7 +313,7 @@ ul a:hover {
     }*/
 
   .showcase-text {
-    width: 20rem;
+    width: 30rem;
     font-size: 1rem;
     position: relative;
     top: 2rem;
@@ -322,16 +322,15 @@ ul a:hover {
     width: 30rem;
     font-size: 1rem;
     position:inherit;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left:136px   
   }
 
   .aboutimg-2 {
-    margin-top: 1rem;
     border-radius: 50%;
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
   .about-text {
@@ -365,19 +364,19 @@ ul a:hover {
   }
 
   .g-card-one {
-    width: 330px;
+    width: 400px;
   }
   .g-card-two {
-    width: 330px;
+    width: 33opx;
   }
   .g-card-three {
-    width: 300px;
+    width: 360px;
   }
   .g-card-four {
-    width: 340px;
+    width: 400px;
   }
   .g-card-five {
-    width: 330px;
+    width: 400px;
   }
 
   #contact .contact-info {
