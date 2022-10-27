@@ -136,7 +136,17 @@ ul a:hover {
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  padding-left: 136px;
   }
+  .show-text{
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 240px;
+}
+
 .about-img img {
   margin-top: 10rem;
   margin-bottom: 2rem;
