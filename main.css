@@ -326,12 +326,11 @@ ul a:hover {
   }
 
   .aboutimg-2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     border-radius: 50%;
     display: inline-block;
-    width: 180px;
-    height: 180px;
-    box-shadow: 3px 3px 20px 3px #6d605b;
+    width: 150px;
+    height: 150px;
   }
 
   .about-text {
