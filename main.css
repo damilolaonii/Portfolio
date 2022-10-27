@@ -321,7 +321,7 @@ ul a:hover {
   .show-text{
     width: 20rem;
     font-size: 1rem;
-    position:relative;
+    position:inherit;
     padding-top: 1rem;    
   }
 
