@@ -304,13 +304,13 @@ ul a:hover {
     font-weight: bold;
   }
 
-  #showcase .container {
+ /* #showcase .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 144px;
-    }
+    }*/
 
   .showcase-text {
     width: 20rem;
