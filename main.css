@@ -319,9 +319,9 @@ ul a:hover {
     top: 8rem;
   }
   .show-text{
-    width:20rem;
+    width:40rem;
     font-size: 1rem;
-    position: relative;
+    position:fixed;
     padding-top: 4px;    
   }
 
