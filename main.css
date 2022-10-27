@@ -322,9 +322,8 @@ header{
     width: 30rem;
     font-size: 1rem;
     position: relative;
-    padding-left: 96px;
     top: 2rem;
-    padding-left:8px   
+    padding-left:32px   
 
   }
   .show-text{
