@@ -261,12 +261,6 @@ ul a:hover {
 /* phone responsive */
 
 @media (max-width: 480px) {
-  body{
-    width:100%;
-  }
-header{
-  width: 100%;
-}
   .logo {
     width: 80px;
     height: 80px;
