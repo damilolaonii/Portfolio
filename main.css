@@ -316,13 +316,13 @@ ul a:hover {
     width: 20rem;
     font-size: 1rem;
     position: relative;
-    top: 8rem;
+    top: 4rem;
   }
   .show-text{
-    width:40rem;
+    width: 20rem;
     font-size: 1rem;
     position:relative;
-    padding-top: 4px;    
+    padding-top: 1rem;    
   }
 
   .aboutimg-2 {
