@@ -318,13 +318,15 @@ ul a:hover {
     position: relative;
     padding-left: 96px;
     top: 2rem;
+    padding-left:32px   
+
   }
   .show-text{
     width: 30rem;
     font-size: 1rem;
     position:inherit;
     padding-top: 2rem;
-    padding-left:96px   
+    padding-left:32px   
   }
 
   .aboutimg-2 {
