@@ -321,7 +321,7 @@ ul a:hover {
   .showcase-text {
     width: 20rem;
     font-size: 1rem;
-    position: relative;
+    position: inherit;
     top: 2rem;
     margin: auto;  
 
@@ -363,6 +363,10 @@ ul a:hover {
     grid-gap: 2rem;
     width: 20rem;
   }
+  .abouty{
+    margin: auto;
+    text-align: center;
+  }
 
   .gallary-cards {
     text-align: center;
@@ -374,7 +378,7 @@ ul a:hover {
   }
 
   .g-card-one {
-    width: 350px;
+    width: 330px;
   }
   .g-card-two {
     width: 330px;
