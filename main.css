@@ -210,7 +210,7 @@ ul a:hover {
 }
 
 .g-card-one {
-  width:1800px;
+  width:1200px;
 }
 .g-card-two {
   width: 600px;
@@ -363,20 +363,13 @@ ul a:hover {
     text-align: center;
     margin: auto;
   }
-  .g-card{
-    width:800px;
-    overflow-x: scroll;
-  
-  }
-  .g-card::-webkit-scrollbar{
-    display: none;
-  }
+
   .ssxl {
     font-size: 1.2rem;
   }
 
   .g-card-one {
-    width: 500px;
+    width: 330px;
   }
   .g-card-two {
     width: 330px;
