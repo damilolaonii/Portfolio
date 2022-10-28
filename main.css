@@ -20,7 +20,7 @@ svg:hover {
   transition: all ease-in-out 0.5s;
 }
 a {
-  color: #222;
+  color: #757678;
   text-decoration: none;
 }
 
@@ -83,6 +83,7 @@ body {
 
 /* nav bar */
 #main-nav {
+  color: #757678;
   height: 5rem;
   background: inherit;
   top: 0;
@@ -98,6 +99,7 @@ body {
   align-items: center;
   text-align: center;
   padding-top: -3rem;
+  color: #757678;
 }
 
 #main-nav .logo {
@@ -110,7 +112,10 @@ body {
 #main-nav ul {
   margin-top: -1.5rem;
   justify-self: end;
-  display: flex;  
+  display: flex;
+  color: #757678;
+
+
 }
 
 #main-nav ul li a {
@@ -131,27 +136,32 @@ ul a:hover {
 
 
 .showcase-text {
-  width: 40rem;
-  display: flex;
+  width: 45rem;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
-  margin: auto;
-  }
-  .show-text{
+  padding-top: 150px;
+  flex-direction: column;
+  margin-left: 88px;
+  color: #1a1b1f; 
+  margin-bottom: 88px;
+}
+
+
+ /* .show-text{
   width: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 8px;
-  margin: auto;
-}
+  margin: auto; */
 
-.about-img img {
-  margin-top: 5rem;
+
+.about-img{
+  margin-top:1rem;
   margin-bottom: 2rem;
-  width: 325px;
+  width: 100px;
   border-radius: 50%;
+  display: flex;
 }
 
 #about .container {
@@ -163,6 +173,7 @@ ul a:hover {
 
 .about-text {
   width: 40rem;
+  color: #1a1b1f;
 }
 #abouty . container {
   margin-top: 5rem;
@@ -256,6 +267,7 @@ ul a:hover {
   flex: 0 0 auto;
   -webkit-box-align: center;
   -webkit-box-flex: 0;
+  color: #575357;
 }
 
 /* footer section */
