@@ -200,14 +200,17 @@ ul a:hover {
   border-radius: 4px;
 }
 
-/*.g-card{
+.g-card{
   width:1200px;
   overflow-x: scroll;
 
-}*/
+}
+.g-card::-webkit-scrollbar{
+  display: none;
+}
 
 .g-card-one {
-  width:1200px;
+  width:1800px;
 }
 .g-card-two {
   width: 600px;
@@ -360,13 +363,20 @@ ul a:hover {
     text-align: center;
     margin: auto;
   }
-
+  .g-card{
+    width:1200px;
+    overflow-x: scroll;
+  
+  }
+  .g-card::-webkit-scrollbar{
+    display: none;
+  }
   .ssxl {
     font-size: 1.2rem;
   }
 
   .g-card-one {
-    width: 330px;
+    width: 500px;
   }
   .g-card-two {
     width: 330px;
